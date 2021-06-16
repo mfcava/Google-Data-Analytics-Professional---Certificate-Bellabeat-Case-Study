@@ -1,4 +1,4 @@
-![Bellabeat logo]("static/img/bb-logo-full.png")
+![[![Bellabeat logo](static/img/bb-logo-full.png "Bellabeat logo")](https://bellabeat.com)"Bellabeat logo"](%22static/img/bb-logo-full.png%22)
 
 # Bellabeat Case Study
 ## Capstone for Google Data Analytics Professional Certificate
