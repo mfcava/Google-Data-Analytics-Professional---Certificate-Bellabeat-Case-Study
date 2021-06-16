@@ -1,4 +1,4 @@
-![[![Bellabeat logo](static/img/bb-logo-full.png "Bellabeat logo")](https://bellabeat.com)"Bellabeat logo"](%22static/img/bb-logo-full.png%22)
+![[![Bellabeat logo](https://raw.githubusercontent.com/mfcava/Google-Data-Analytics-Professional---Certificate-Bellabeat-Case-Study/9b95acec7394f282532136f0e24ffbb71bafbb3c/static/img/bb-logo-full.png "Bellabeat logo")](https://bellabeat.com)"Bellabeat logo"](https://raw.githubusercontent.com/mfcava/Google-Data-Analytics-Professional---Certificate-Bellabeat-Case-Study/9b95acec7394f282532136f0e24ffbb71bafbb3c/static/img/bb-logo-full.png)
 
 # Bellabeat Case Study
 ## Capstone for Google Data Analytics Professional Certificate
