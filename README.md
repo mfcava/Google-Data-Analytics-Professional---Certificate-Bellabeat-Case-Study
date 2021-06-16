@@ -2,6 +2,7 @@
 
 # Case Study
 ## Capstone for Google Data Analytics Professional Certificate
+
 <br><br>
 ### Scenario
 Bellabeat is a successful small company with the potential to become a larger player in the global smart device market. 

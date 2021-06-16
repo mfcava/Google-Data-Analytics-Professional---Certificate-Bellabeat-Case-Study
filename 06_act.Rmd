@@ -1,0 +1,6 @@
+#### Act
+![](static/img/6_Act.png)
+The last stage of the process to decide how best to implement changes and take actions based on the findings.
+
+##### Key task
+

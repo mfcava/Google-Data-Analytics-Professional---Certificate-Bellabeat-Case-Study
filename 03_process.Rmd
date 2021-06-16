@@ -1,0 +1,9 @@
+#### Process
+![](static/img/3_Process.png)
+Define how data would be collected, stored, managed, and protected in order to maintain confidentiality and protect and store the data effectively.
+
+##### Key task
+- *Check the data for errors:*
+- *Choose your tools:*
+- *Transform the data so you can work with it effectively:*
+- *Document the cleaning process:*

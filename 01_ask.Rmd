@@ -1,0 +1,14 @@
+#### Ask
+![](static/img/1_Ask.png)
+Define what the project would look like and what would qualify as a successful result. 
+To determine these things, ask effective questions and collaborated with leaders and managers who were interested in the outcome of their people analysis.
+
+##### Key task
+
+**Analyze smart device usage data in order to gain insight into how consumers use non-Bellabeat smart devices. Then apply data insight to Bellabeat product to suggest product and/or communication optimization**.
+
+- Business questions to address
+ - What are some trends in smart device usage?
+ - How could these trends apply to Bellabeat customers?
+ - How could these trends help influence Bellabeat marketing strategy?
+ 

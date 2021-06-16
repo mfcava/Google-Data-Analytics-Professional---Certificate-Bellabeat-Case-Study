@@ -1,8 +1,13 @@
 ---
-title: "R Markdown project skelethon"
+title: "Bellabeat Case Study"
 author: "Marco F. Cavaliere"
 date: "5/18/2021"
-output: html_document
+output: 
+    html_document:
+        theme: paper
+editor_options: 
+  markdown: 
+    wrap: 72
 ---
 
 ```{r setup_markdown, include=FALSE}
@@ -16,17 +21,6 @@ knitr::opts_chunk$set( fig.width=9, fig.height=3.5, fig.retina=3, out.width = "1
                        warning  = FALSE,
                        fig.show = TRUE,
                        progress = TRUE)
-
-# STYLE GUIDES
-# All chunks must be named and the standard for naming is the camel_case with some name_space to help grouping various elements.
-# Indentation must be the standard Rstudio (CMD+i or CTRL+i)
-# --| Project_directory:
-#   | -- data: must contains all the local data sources.
-#   | -- cache: could contains all the post-import / post tidy version of the data-sets. Typically stored in Rds files (avoid .Rda)
-#   | -- libs: custom collection of utility / functions that could be shared with other projects
-#   | -- static: all the static resources needed for output (such as CSS, Images)
-
-
 
 ```
 
@@ -76,9 +70,76 @@ df_main <- NULL  # Naming conventions -> all data frames must start with "df_"
 
 ```
 
+------------------------------------------------------------------------
 
-# PROJECT TITLE
+![](static/img/bb-logo-full.png)
 
-```{r include_child_element_01, eval=T, child='01_child.Rmd'}
+##### Google Data analytics Professional Certificate Capstone
+
+------------------------------------------------------------------------
+
+### Scenario
+
+Bellabeat is a successful small company with the potential to become a larger player in the global smart device market. 
+Chief Creative Officer of Bellabeat believes that analyzing smart device fitness data could help unlock new growth opportunities for the company.
+
+### Goals
+Analyze smart device data to gain insight into how consumers are using their smart devices to guide marketing strategy for the company.
+
+### Target analysis audience
+Bellabeat executive team along with marketing team.
+
+<br><br> 
+
+------------------------------------------------------------------------
+
+<br><br> 
+
+### Analysis workflow {.tabset}
+The six steps of the data analysis process are: 
+- Ask, 
+- Prepare, 
+- Process, 
+- Analyze, 
+- Share
+- Act.
+
+
+```{r child_element_01, eval=T, child='01_ask.Rmd'}
 ```
 
+```{r child_element_02, eval=T, child='02_prepare.Rmd'}
+```
+
+```{r child_element_03, eval=T, child='03_process.Rmd'}
+```
+
+```{r child_element_04, eval=T, child='04_analyze.Rmd'}
+```
+
+```{r child_element_05, eval=T, child='05_share.Rmd'}
+```
+
+```{r child_element_06, eval=T, child='06_act.Rmd'}
+```
+
+```{r child_element_07, eval=T, child='07_appendix.Rmd'}
+```
+
+
+
+
+
+
+
+
+
+
+
+##
+
+<br><br><br><br><br><br> <br><br><br><br><br><br> 
+
+***
+
+<small>Notebook credits:<small>

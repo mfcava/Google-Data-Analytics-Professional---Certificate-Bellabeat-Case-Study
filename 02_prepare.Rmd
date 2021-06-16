@@ -1,0 +1,9 @@
+#### Prepare
+![](static/img/2_Prepare.png)
+It all started with solid preparation. Build a timeline, identify what data is needed to achieve the successful result.
+
+##### Key task
+
+- *Data Source:* FitBit Fitness Tracker Data from (https://www.kaggle.com/arashnic/fitbit). It' a Public Domain, dataset made available through a Kaggle data set. Contains personal fitness tracker from thirty fitbit users. Thirty eligible Fitbit users consented to the submission of personal tracker data.
+
+- *How data it's organized:* data organaized in multiple file and includes minute-level output for physical activity, heart rate, and sleep monitoring. It includes information about daily activity, steps, and heart rate that can be used to explore users’ habits
