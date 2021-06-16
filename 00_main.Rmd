@@ -1,0 +1,84 @@
+---
+title: "R Markdown project skelethon"
+author: "Marco F. Cavaliere"
+date: "5/18/2021"
+output: html_document
+---
+
+```{r setup_markdown, include=FALSE}
+
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set( fig.width=9, fig.height=3.5, fig.retina=3, out.width = "100%",
+                       cache    = FALSE,
+                       echo     = FALSE,
+                       message  = FALSE, 
+                       include  = TRUE,
+                       warning  = FALSE,
+                       fig.show = TRUE,
+                       progress = TRUE)
+
+# STYLE GUIDES
+# All chunks must be named and the standard for naming is the camel_case with some name_space to help grouping various elements.
+# Indentation must be the standard Rstudio (CMD+i or CTRL+i)
+# --| Project_directory:
+#   | -- data: must contains all the local data sources.
+#   | -- cache: could contains all the post-import / post tidy version of the data-sets. Typically stored in Rds files (avoid .Rda)
+#   | -- libs: custom collection of utility / functions that could be shared with other projects
+#   | -- static: all the static resources needed for output (such as CSS, Images)
+
+
+
+```
+
+```{r setup, include=FALSE}
+
+library("tidyverse")  # All the most important libraries from the tidyverse meta-package
+library("lubridate")  # Utility for working with dates
+library("scales")     # Number formatting utility
+library("janitor")    # Clean and standardize column names
+library("vroom")      # Fast import library for CSV files
+library("here")       # Automate the setup for working directory (works only with a .project folder)
+
+
+setwd( here::here() )
+
+
+config_libs_path   <- "./libs/"     # Naming conventions -> all variables in the setup chunk must be named starting with "config_"
+config_data_path   <- "./data/"
+config_cache_path  <- "./cache/"
+config_static_path <- "./static/"
+
+config_actual_date_txt <- Sys.Date() 
+
+
+#source("./libs/")
+
+config_libs_files_sources = list.files(config_libs_path) # List all files in the libs directory
+sapply(config_libs_files_sources, source)                # Load and source all files from libs directory
+
+```
+
+```{r functions, include=FALSE}
+
+fn_custom_function_name <- function() { # Naming conventions -> all functions must start with 'fn_' 
+    r <- NULL
+    return(r)
+}
+
+```
+
+```{r data_import, include=FALSE}
+
+df_main <- NULL  # Naming conventions -> all data frames must start with "df_" 
+                 #                       strongly suggest to use consistent 
+                 #                       column names across tables (where possible)
+                 #                       eg: dt -> for date related column
+
+```
+
+
+# PROJECT TITLE
+
+```{r include_child_element_01, eval=T, child='01_child.Rmd'}
+```
+
