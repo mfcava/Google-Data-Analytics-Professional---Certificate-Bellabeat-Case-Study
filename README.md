@@ -1,4 +1,4 @@
-![Bellabeat logo]("./static/img/bb-logo-full.png")
+![Bellabeat logo]("static/img/bb-logo-full.png")
 
 # Bellabeat Case Study
 ## Capstone for Google Data Analytics Professional Certificate
