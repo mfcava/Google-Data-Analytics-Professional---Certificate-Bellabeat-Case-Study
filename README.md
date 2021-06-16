@@ -2,7 +2,7 @@
 
 # Case Study
 ## Capstone for Google Data Analytics Professional Certificate
-
+<br><br>
 ### Scenario
 Bellabeat is a successful small company with the potential to become a larger player in the global smart device market. 
 Chief Creative Officer of Bellabeat believes that analyzing smart device fitness data could help unlock new growth opportunities for the company. 
@@ -13,6 +13,24 @@ Analyze smart device data to gain insight into how consumers are using their sma
 ### Target analysis audience
 Bellabeat executive team along with marketing team.
 
+<br><br>
+## Analysis workflow
+
+### STEP1: ASK
+
+Analyze smart device usage data in order to gain insight into how consumers use non-Bellabeat smart devices. She then wants you to select one Bellabeat product to apply these insights to in your presentation. These questions will guide your analysis:
+
+- What are some trends in smart device usage?
+- How could these trends apply to Bellabeat customers?
+- How could these trends help influence Bellabeat marketing strategy?
+
+You will produce a report with the following deliverables:
+- A clear summary of the business task
+- A description of all data sources used
+- Documentation of any cleaning or manipulation of data
+- A summary of your analysis
+- Supporting visualizations and key findings
+- Your top high-level content recommendations based on your analysis
 
 
 
@@ -20,9 +38,7 @@ Bellabeat executive team along with marketing team.
 
 
 
-
-
-
+<br><br><br><br><br><br>
 ***
 
 # Technical Notes
